@@ -18,7 +18,7 @@ import (
 	"golang.org/x/oauth2"
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"math"
 	"math/rand"
 	"mime/multipart"

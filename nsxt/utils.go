@@ -14,7 +14,7 @@ import (
 	api "github.com/vmware/go-vmware-nsxt"
 	"github.com/vmware/go-vmware-nsxt/common"
 	"github.com/vmware/go-vmware-nsxt/manager"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 )
 

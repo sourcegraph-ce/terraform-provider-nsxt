@@ -11,7 +11,7 @@ import (
 	global_policy "github.com/vmware/vsphere-automation-sdk-go/services/nsxt-gm"
 	gm_model "github.com/vmware/vsphere-automation-sdk-go/services/nsxt-gm/model"
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/model"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 )
 
