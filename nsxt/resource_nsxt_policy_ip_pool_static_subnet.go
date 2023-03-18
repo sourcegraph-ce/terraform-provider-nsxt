@@ -10,7 +10,7 @@ import (
 	"github.com/vmware/vsphere-automation-sdk-go/runtime/data"
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/infra/ip_pools"
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/model"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func resourceNsxtPolicyIPPoolStaticSubnet() *schema.Resource {

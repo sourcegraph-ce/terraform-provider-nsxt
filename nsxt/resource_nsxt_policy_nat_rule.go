@@ -16,7 +16,7 @@ import (
 	t0nat "github.com/vmware/vsphere-automation-sdk-go/services/nsxt/infra/tier_0s/nat"
 	t1nat "github.com/vmware/vsphere-automation-sdk-go/services/nsxt/infra/tier_1s/nat"
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/model"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 )
 

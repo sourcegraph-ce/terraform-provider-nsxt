@@ -12,7 +12,7 @@ import (
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/infra/tier_0s"
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/infra/tier_1s"
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/model"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 )
 

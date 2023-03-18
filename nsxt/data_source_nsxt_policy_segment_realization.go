@@ -10,7 +10,7 @@ import (
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/infra"
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/infra/segments"
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/model"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 )
 

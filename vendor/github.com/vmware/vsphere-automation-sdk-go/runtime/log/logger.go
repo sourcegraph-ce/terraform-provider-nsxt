@@ -4,7 +4,7 @@
 package log
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 var Log Logger = NewDefaultLogger()

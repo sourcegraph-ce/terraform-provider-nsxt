@@ -11,7 +11,7 @@ import (
 	gm_model "github.com/vmware/vsphere-automation-sdk-go/services/nsxt-gm/model"
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/infra/domains"
 	"github.com/vmware/vsphere-automation-sdk-go/services/nsxt/model"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func resourceNsxtPolicyGatewayPolicy() *schema.Resource {
