@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
 	api "github.com/vmware/go-vmware-nsxt"
 	"github.com/vmware/go-vmware-nsxt/manager"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"time"
 )

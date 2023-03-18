@@ -2,7 +2,7 @@ package convert
 
 import (
 	"encoding/json"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 	"sort"
 
